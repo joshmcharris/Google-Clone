@@ -70,3 +70,48 @@ input[type=text] {
   border-top-color: #dddddd;
   border-top-width: 1px;
 }
+.LinksLeft {
+  position: relative;
+  bottom: -10px;
+  left: 13px;
+  padding: 14px;
+}
+.LinksRight {
+  position: relative;
+  bottom: -10px;
+  right: -1435px;
+  padding: 14px;
+}
+.button {
+  background-color: #f1f1f1;
+  text-align: center;
+  border-radius: 2px;
+}
+.button:hover {
+  border: solid 1px #999999;
+}
+#search {
+  height: 34px;
+  width: 128px;
+  position: fixed;
+  top: 390px;
+  left: 820px;
+}
+#lucky {
+  height: 34px;
+  width: 144px;
+  position: fixed;
+  top: 390px;
+  left: 960px;
+}
+p {
+  color: #757575;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: -2px;
+}
+p:hover {
+  color: #000000;
+}
